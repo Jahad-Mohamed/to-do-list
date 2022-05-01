@@ -12,6 +12,7 @@ body {
 
 header {
   font-size: 2rem;
+  font-weight: 600;
 }
 
 header,
@@ -28,6 +29,8 @@ form button {
   font-size: 1.9rem;
   border: none;
   background: white;
+  border-radius: 0.2rem;
+  margin: 0rem 0.3rem;
 }
 
 form button {
@@ -94,4 +97,9 @@ form button:hover {
 .completed {
   text-decoration: line-through;
   opacity: 0.3;
+}
+
+.fall {
+  transform: translateY(8rem) rotate(20deg);
+  opacity: 0;
 }
